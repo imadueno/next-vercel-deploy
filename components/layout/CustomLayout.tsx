@@ -1,9 +1,9 @@
-import React from "react";
+import React, { FC, PropsWithChildren } from "react";
 import Head from "next/head";
 import styles from "./CustomLayout.module.css";
 import { NavBar } from "../NavBar";
 
-export const CustomLayout = ({ children }) => {
+export const CustomLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <div className={styles.container}>
       <Head>
