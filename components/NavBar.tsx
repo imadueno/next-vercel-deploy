@@ -1,4 +1,4 @@
-import style from "./Navbar.module.css";
+import style from "./NavBar.module.css";
 import { ActiveLink } from "./ActiveLink";
 
 const menuItems = [
