@@ -1,0 +1,6 @@
+Dockerfile
+.dockerignore
+node-modules
+npm-degub.log
+README.md
+.next
